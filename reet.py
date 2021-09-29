@@ -8,10 +8,7 @@ import random
 import smtplib
 import pyjokes
 
-email_set = {'viraj': 'virajjerry123@gmail.com', 'tejas': 'Houseofsmashers00@gmail.com', 'vaishu': 'vaishukshirsager19@gmail.com',
-             'rutu': 'rrghayal147519@gmail.com','rashmi': 'rashmirashmibp16@gmail.com','nandini': 'nandinichudiwal@gmail.com',
-             'sarang':'joshi21sarang@gmail.com','neha':'nehapatil5335@gmail.com','rohini':'rohinisalve1304@gmail.com',
-             'satish': 'satishbirhade16@gmail.com'}
+email_set = {'name':'email'}
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
 #print(voices[0].id)
